@@ -9,7 +9,7 @@ def load_data():
     staff_url = 'https://raw.githubusercontent.com/Archchfa/test_task_bi/main/staff_v2.xlsx'
     calendar_url = 'https://raw.githubusercontent.com/Archchfa/test_task_bi/main/calendar_v2.xlsx'
     cont_url = 'https://raw.githubusercontent.com/Archchfa/test_task_bi/main/cont_v2.xlsx'
-    category_plan_url = 'https://raw.githubusercontent.com/Archchfa/test_task_bi/main/categpry_plan.xlsx'
+    category_plan_url = 'https://raw.githubusercontent.com/Archchfa/test_task_bi/main/category_plan.xlsx'
 
     
     fact_with_calendar = pd.read_excel(fact_table_url)
