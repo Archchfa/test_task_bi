@@ -4,11 +4,10 @@ import pandas as pd
 import plotly.express as px
 
 def load_data():
-    calendar_url = "https://github.com/Archchfa/test_task_bi/raw/main/calendar_v2.xlsx"
-    fact_url = "https://github.com/Archchfa/test_task_bi/raw/main/fact_table_v2.xlsx"
-    products_url = "https://github.com/Archchfa/test_task_bi/raw/main/products_v2.xlsx"
-    staff_url = "https://github.com/Archchfa/test_task_bi/raw/main/staff_v2.xlsx"
-    cont_url = "https://github.com/Archchfa/test_task_bi/raw/main/cont_v2.xlsx"
+    fact_table_url = 'https://raw.githubusercontent.com/Archchfa/test_task_bi/main/fact_table_v2.xlsx'
+    products_url = 'https://raw.githubusercontent.com/Archchfa/test_task_bi/main/products_v2.xlsx'
+    staff_url = 'https://raw.githubusercontent.com/Archchfa/test_task_bi/main/staff_v2.xlsx'
+    calendar_url = 'https://raw.githubusercontent.com/Archchfa/test_task_bi/main/calendar_v2.xlsx'
     category_plan_url = 'https://raw.githubusercontent.com/Archchfa/test_task_bi/main/categpry_plan.xlsx'
 
     
